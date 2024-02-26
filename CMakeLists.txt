@@ -16,9 +16,9 @@ set(BUILD_SHARED_LIBS OFF)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti")
 
 # Set RPATH
-set(KDE_INSTALL_BINDIR "${CMAKE_INSTALL_PREFIX}/share/harbour-sailfishconnect/bin")
-set(KDE_INSTALL_INCLUDEDIR "${CMAKE_INSTALL_PREFIX}/share/harbour-sailfishconnect/include")
-set(KDE_INSTALL_LIBDIR "${CMAKE_INSTALL_PREFIX}/share/harbour-sailfishconnect/lib")
+set(KDE_INSTALL_BINDIR "${CMAKE_INSTALL_PREFIX}/share/ru.lex.auroraconnect/bin")
+set(KDE_INSTALL_INCLUDEDIR "${CMAKE_INSTALL_PREFIX}/share/ru.lex.auroraconnect/include")
+set(KDE_INSTALL_LIBDIR "${CMAKE_INSTALL_PREFIX}/share/ru.lex.auroraconnect/lib")
 set(CMAKE_BUILD_WITH_INSTALL_RPATH OFF)
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH OFF)
 set(CMAKE_INSTALL_RPATH "${LIB_INSTALL_DIR}")
@@ -45,7 +45,7 @@ add_definitions(-DSAILFISHOS)
 # KDE Connect
 add_subdirectory(kdeconnect-kde)
 
-# Sailfish Connect
+# Aurora Connect
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 

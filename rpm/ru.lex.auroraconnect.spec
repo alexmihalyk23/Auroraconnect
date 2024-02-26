@@ -1,10 +1,10 @@
-Name:       harbour-sailfishconnect
+Name:       ru.lex.auroraconnect
 
-Summary:    SailfishOS client for KDE-Connect
-Version:    0.7.0
+Summary:    AuroraOS client for KDE-Connect
+Version:    0.7.1
 Release:    0.1
 License:    LICENSE
-URL:        https://github.com/R1tschY/harbour-sailfishconnect
+URL:        https://github.com/alexmihalyk23/Auroraconnect
 Source0:    %{name}-%{version}.tar.bz2
 Source1:    CMakeLists.txt
 Source2:    %{_target_cpu}.profile
@@ -34,7 +34,7 @@ BuildRequires:  pkgconfig(Qt5Script)
 BuildRequires:  gettext-devel
 
 %description
-SailfishOS client for KDE-Connect
+AuroraOS client for KDE-Connect
 
 
 %prep
